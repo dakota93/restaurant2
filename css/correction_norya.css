@@ -1,0 +1,124 @@
+/* correction feuille css */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*******************fin eric meyer******************************/
+
+*{
+    box-sizing: border-box;
+}
+
+/***********************fin développeur mozilla**********************************/
+
+body {
+    background-color: #50D890;
+    font-family: 'Caveat Brush', cursive;
+}
+#conteneur {
+    margin: 0 auto;
+    width: 800px;
+    background: url(../img/motif.jpg);
+    text-align: center;
+}
+/* en-tête de la page */
+header {
+    background: url(../img/planches.jpg);
+    height: 400px;
+}
+
+/* pied de page */
+footer {
+    height: 300px;
+}
+
+/* class qui permet de faire flotter a gauche les 6 div */
+.zone{
+    float: left;
+}
+
+.story {
+    width: 320px;
+}
+
+.fare{
+    width: 294px;
+}
+
+.drink {
+    width: 343px;
+}
+
+.zoneheader {
+    background-color: antiquewhite;
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+.cerf img {
+    z-index: 2;
+    position: relative;
+    left: 60px;
+}
+#triangle {
+    z-index: 1;
+    border-top : 100px solid #CC0066;
+    border-left : 100px solid transparent;
+    display : inline-block;
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
+
+
+
+
+
+
